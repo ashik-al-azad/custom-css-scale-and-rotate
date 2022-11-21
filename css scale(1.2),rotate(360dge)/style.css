@@ -1,0 +1,12 @@
+.div{
+   background-color: red;
+   width: 500px;
+   height: 500px;
+   margin: 0 auto;
+   margin-top: 250px;
+   transition: 1s;
+}
+.div:hover{
+   transform: rotate(360deg) scale(1.5);
+   /* transform: scale(2); */
+}
